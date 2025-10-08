@@ -34,7 +34,6 @@ header nav a {
   height: 60px;
   overflow: hidden;
   line-height: 0;
-  z-index: 1;
 }
 
 /* Ondas */
