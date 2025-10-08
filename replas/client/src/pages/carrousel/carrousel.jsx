@@ -74,7 +74,6 @@ const styles = {
     fontSize: "1.5rem",
     padding: "8px 12px",
     cursor: "pointer",
-    zIndex: 2,
     transition: "background 0.3s",
   },
   prev: {

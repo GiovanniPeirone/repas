@@ -1,6 +1,8 @@
 import React from "react";
+import Group from "../../assets/Group.png";
 
 const ProblematicSection = () => {
+
   return (
     <section style={styles.container}>
       <h1 style={styles.title}>Repensemos el Plastico</h1>
@@ -25,12 +27,7 @@ const ProblematicSection = () => {
           los talleres que realizamos los estudiantes de sexto año hacia el resto de
           cursos, contamos con tu ayuda para difundir esta idea y llegar a más personas.
         </p>
-        <img src="Group.png" alt="" srcset="" />
-        <img
-          src="../../assets/Group.png"
-          alt="Mapa ilustrativo"
-          style={styles.image}
-        />
+        <img src={Group} alt="Descripción de la imagen" style={styles.image} />
       </div>
     </section>
   );
